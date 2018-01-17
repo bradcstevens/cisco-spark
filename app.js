@@ -17,8 +17,8 @@ This is a Cisco Spark bot built with Botkit.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-var env = require('node-env-file');
-env(__dirname + '/.env');
+// var env = require('node-env-file');
+// env(__dirname + '/.env');
 
 console.log(process.env.access_token);
 if (!process.env.access_token) {
